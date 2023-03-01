@@ -1,0 +1,40 @@
+.main-bg {
+    /* Usando */
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    /* Usando */
+    background: var(--white-color);
+}
+
+.primary-color-bg {
+    /* Usando */
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.main-content {
+    /* Usando */
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+
+.section {
+    /* Usando */
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    /* Usando */
+    height: 6.5rem;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
